@@ -4,7 +4,7 @@ export function UpdateUi(list) {
   container.innerHTML = "";
   console.log(list);    
 
-  list.forEach((book, index) => {
+  list.forEach((book) => {
     container.innerHTML += `
       <div class="book-card">
         <img 

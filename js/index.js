@@ -30,8 +30,6 @@ function UpdateUi(list) {
       </div>
     `;
   });
-
-  // Click event — kartani bossа details.html ga o‘tadi
   container.addEventListener("click", (e) => {
     const card = e.target.closest(".book-card");
     if (!card) return;
