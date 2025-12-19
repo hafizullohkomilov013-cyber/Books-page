@@ -138,3 +138,29 @@ select{
   border-radius: 5px;
   font-size: 0.75rem;
 }
+@media (max-width: 1200px) {
+  .main-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nav-section{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+}
