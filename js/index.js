@@ -7,7 +7,7 @@ async function init() {
   UpdateUi(books);
 }
 
-function UpdateUi(list) {
+export function UpdateUi(list) {
   container.innerHTML = "";
 
   list.forEach((book) => {
@@ -20,8 +20,8 @@ function UpdateUi(list) {
           <h3 class="book-title">${book.title}</h3>
           <p class="book-author">${book.author}</p>
           <div class="book-meta">
-            <span>⭐ ${book.rating ?? "N/A"}</span>
-            <span>${book.pages ?? "?"} pages</span>
+            <span> ${book.year} - year </span>
+            <span>${book.genre} pages</span>
           </div>
           <div class="book-meta">
             <span class="badge">${book.genre ?? "Unknown"}</span>

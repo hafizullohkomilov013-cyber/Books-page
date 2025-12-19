@@ -56,6 +56,7 @@ header{
   margin-left: 15px;
   outline: none;
   background: transparent;
+  color: white;
 }
 input::placeholder{
     color: white;
@@ -156,6 +157,7 @@ select{
   }
   .nav-section{
     flex-direction: column;
+    gap: 30px;
   }
 }
 

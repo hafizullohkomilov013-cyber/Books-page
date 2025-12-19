@@ -13,13 +13,13 @@ export function UpdateUi(list) {
         />
         <div class="book-content">
           <div class ="year">
-            <h3 class="book-title">${book.year} - year</h3>
+            <h2 class="book-title">${book.title}ddcdcdcdc - year</h2>
             <h3 class="book-title">${book.title}</h3>
           <div/>
           <p class="book-author">${book.author}</p>
 
           <div class="book-meta">
-            <span>⭐{ ${book.id} "N/A"}</span>
+            
             <span>${book.pages ?? "?"} pages</span>
           </div>
 

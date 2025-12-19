@@ -20,7 +20,7 @@ async function showBookDetails() {
       <div class="book-content">
         <h2>${book.title}</h2>
         <p><strong>Author:</strong> ${book.author}</p>
-        <p><strong>Rating:</strong> ⭐ ${book.rating} "N/A"</p>
+        <p><strong>Year:</strong> ${book.year}</p>
         <p><strong>Genre:</strong> ${book.genre} "Unknown"</p>
         <p><strong>Description:</strong> ${
           book.description } "No description available."</p>
