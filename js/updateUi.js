@@ -1,8 +1,7 @@
 let container = document.querySelector(".main-container");
 
 export function UpdateUi(list) {
-  container.innerHTML = "";
-  console.log(list);    
+  container.innerHTML = "";   
 
   list.forEach((book) => {
     container.innerHTML += `

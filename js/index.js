@@ -21,7 +21,7 @@ export function UpdateUi(list) {
           <p class="book-author">${book.author}</p>
           <div class="book-meta">
             <span> ${book.year} - year </span>
-            <span>${book.genre} pages</span>
+            <span>Genre - ${book.genre}</span>
           </div>
           <div class="book-meta">
             <span class="badge">${book.genre ?? "Unknown"}</span>
